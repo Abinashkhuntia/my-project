@@ -34,7 +34,7 @@ jobs:
         arguments: build
     
     - name: Build and Push Docker Image
-      uses: mr—smithers—excellent/docker—build—push@v4
+      uses: actions/checkout@v3
       with:
         image: abinash8/project1
         registry: docker.io
